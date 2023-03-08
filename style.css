@@ -1,0 +1,20 @@
+html{
+    background-image: url(./images/pexels-codioful-\(formerly-gradienta\)-7135037.jpg);
+}
+body {
+ display: flex;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 40px;
+ gap:20px;
+ height: 100vh;
+}
+
+.profilePicture {
+    width: 200px;
+}
+
+.aboutSection, .projectsSkills {
+    color:white;
+    
+}
