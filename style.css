@@ -1,8 +1,10 @@
 html{
     background-image: url(./images/pexels-codioful-\(formerly-gradienta\)-7135037.jpg);
+    font-family: 'Open Sans','Montserrat' , sans-serif;
 }
 body {
  display: flex;
+ justify-content: space-between;
  box-sizing: border-box;
  margin: 0;
  padding: 40px;
@@ -12,9 +14,53 @@ body {
 
 .profilePicture {
     width: 200px;
+    border-radius: 50%;
 }
 
 .aboutSection, .projectsSkills {
     color:white;
-    
+    border-radius: 20px;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(64, 64, 64, 0.3);
+    padding: 50px;
+    width: 30vh;
+}
+
+.shortDescription{
+    flex-grow: 2;
+}
+
+.projectsSkills {
+    background-color: rgba(228, 206, 206, 0.3);
+    padding: 10px 60px;
+    width: 100vh;
+    flex-grow: 2;
+}
+
+.skillsLogo {
+    width: 90px;
+}
+
+.socialLogo{
+    width: 40px;
+    margin:0 10px
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    background-color: rgba(64, 64, 64, 0.6);
+    border-radius: 20px;
+}
+.project img {
+    width: 40px;
+}
+ 
+.title {
+    text-align: center;
 }
