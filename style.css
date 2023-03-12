@@ -26,41 +26,102 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgba(64, 64, 64, 0.3);
+    background-color:rgba(116, 116, 116, 0.3);
     padding: 50px;
     width: 30vh;
 }
 
 .shortDescription{
     flex-grow: 2;
+    text-align:center
 }
 
 .projectsSkills {
     background-color: rgba(228, 206, 206, 0.3);
     padding: 10px 60px;
     width: 100vh;
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
+    justify-content: space-between;
+    color: #000000;
 }
 
 .skillsLogo {
     width: 90px;
+    opacity: 0.7;
+}
+
+.skillSet{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+
 }
 
 .socialLogo{
     width: 40px;
-    margin:0 10px
+    margin:0 10px;
+    flex:2;
 }
 
 .project{
+    
     display: flex;
     align-items: center;
     background-color: rgba(64, 64, 64, 0.6);
     border-radius: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap:10px
 }
+
+.projectDescription{
+    margin:0;
+}
+
+.projectName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
 .project img {
     width: 40px;
 }
  
 .title {
     text-align: center;
+    font-size:25px
+}
+
+/* For desktop screens with resolution lower than 1270px */
+
+@media only screen and (max-width: 1270px) {
+    .project {
+        padding: 15px;
+    }
+}
+
+/* For smartphones with resolution up to  */
+@media only screen and (max-width: 1080px) {
+    body{
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        align-items: center;
+    }
+    .aboutSection{
+      width: auto;
+      padding: 10px 40px;
+    }
+    .projectsSkills {
+    width: auto;
+    gap: 30px;
+    padding: 10px 40px;
+    }
 }
