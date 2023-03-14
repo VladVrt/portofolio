@@ -88,6 +88,7 @@ body {
     flex-basis: 100%;
     margin: 0;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .project img {
@@ -97,6 +98,13 @@ body {
 .title {
     text-align: center;
     font-size:25px
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
 }
 
 /* For desktop screens with resolution lower than 1270px */
@@ -125,3 +133,4 @@ body {
     padding: 10px 40px;
     }
 }
+
