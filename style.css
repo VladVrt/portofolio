@@ -17,6 +17,11 @@ body {
     border-radius: 50%;
 }
 
+img:hover {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .aboutSection, .projectsSkills {
     color:white;
     border-radius: 20px;
@@ -70,7 +75,7 @@ body {
     
     display: flex;
     align-items: center;
-    background-color: rgba(64, 64, 64, 0.6);
+    background-color: rgba(189, 187, 187, 0.5);
     border-radius: 20px;
     padding: 30px;
     flex-wrap: wrap;
